@@ -1,38 +1,31 @@
-Utility Usage Prediction Tool
-Overview
-A Machine Learning based console application that predicts future utility usage using historical data.
+ ⚡ Utility Usage Prediction Tool
+🤖 A Machine Learning-based Python application that predicts future utility usage using historical data.
 
-Features
-Add Utility Usage Data
-View Existing Data
-CSV File Storage
-Future Usage Prediction
-Exception Handling
-Menu Driven Interface
+ 📌 Project Overview
+This project analyzes historical utility usage data and predicts future consumption using Machine Learning.
+It helps users understand usage patterns and make better decisions based on predicted utility consumption.
 
-Technologies Used
-Python
-Pandas
-Scikit-Learn
-CSV
+✨ Features
+- ➕ Add new utility usage data
+- 📊 View existing usage records
+- 📁 Store data in CSV format
+- 🤖 Predict future utility usage
+- ⚠️ Exception handling
+- 🖥️ Menu-driven console interface
 
-How To Run
-Install dependencies:
-pip install pandas scikit-learn
+---
+🛠️ Technologies Used
+| Technology | Purpose |
+|---|---|
+| 🐍 Python | Application Development |
+| 🐼 Pandas | Data Handling |
+| 🧠 Scikit-learn | Machine Learning |
+| 📄 CSV | Data Storage |
 
-Run:
-python utility_usage.py
-
-Sample Dataset
-month,usage
-1,120
-2,135
-3,150
-4,160
-5,175
-
-Output
-Predicted Usage: 188.50
-
+📂 Project Structure
+📦 Project-1-Utility-Usage-Prediction
+ ┣ 📄 README.md
+ ┣ 📄 utility_usage.py
+ ┗ 📄 utility_data.csv
 Author
 Tanavi Toti CodeVedX AI/ML Internship
